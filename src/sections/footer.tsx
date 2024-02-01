@@ -56,7 +56,7 @@ export const Footer = () => {
             </div>
             <div className="h-[1px] w-[800px] bg-greenPrimary mb-8 mt-[70px] mx-auto " />
             <ul className="uppercase flex m-auto justify-center items-center gap-6">
-              <li>about</li>
+              <li>abou</li>
               <li>services</li>
               <li>blog</li>
               <li>contact</li>
