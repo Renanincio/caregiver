@@ -11,7 +11,7 @@ export const Home = () => {
             fundador da página no Instagram papo_psi1. Aonde é divulgados um
             pouco da psicologia de maneira mais fácil.
           </p>
-          <button className=" py-[10px] w-[230px] mt-16 font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn">Read More</button>
+          <button className=" py-[10px] w-[230px] mt-16 font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn">Saiba mais</button>
         </div>
         <img
           src="./Filipe1.jpg"
