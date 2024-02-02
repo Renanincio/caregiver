@@ -7,53 +7,32 @@ export const About = () => {
       >
         <div className="max-w-[1280px] m-auto p-8 flex justify-center items-center flex-col text-center">
         <h2 className="font-medium text-[32px] my-4">
-          Once upon a time, massages were<br /> thought to be a luxury.
+          Quem somos?
         </h2>
-        <p className="mb-12">
-          These days, thankfully, things have changed. Here at The Caregiver, we<br />
-          believe that healing is both an art and a science. You deserve the
-          true<br /> wealth that is wellness.
+        <p className="mb-12 w-[600px]">
+        Na Clínica Insight, dedicamo-nos a fornecer um ambiente terapêutico em total conformidade com o código de ética da psicologia. Nossa equipe especializada em terapia cognitivo-comportamental e psicanálise oferece uma ampla gama de recursos para atender às necessidades individuais de nossos pacientes. Conheça quem somos e descubra como podemos auxiliar no seu bem-estar emocional.
         </p>
 
-        <h4 className="italic font-medium text-[20px]">We Are Here To Help</h4>
+        <h4 className="italic font-medium text-[20px]">Aqui nós ajudamos</h4>
         <div className="h-[1px] w-[100px] bg-greenPrimary mb-8 mt-2" />
-        <ul className="flex flex-row justify-evenly w-full">
-          <li className="flex flex-col items-center max-w-[200px]">
+        
+          <div className="flex flex-col items-center">
+          <h2 className="text-[42px] uppercase font-medium mb-8 mt-16">Terapia Individual</h2>
             <img
-              src="/massage.jpg"
-              className="w-[150px] h-[150px] m-auto rounded-e-btn"
+              src="/terapiaindi.jpeg"
+              className="w-[575px] h-[425px] m-auto rounded-e-btn"
             />
-            <h1 className="text-[28px] font-medium mt-4 mb-1">Body Work</h1>
-            <p>
-              Use this section to talk a little bit about your services and go
-              into one of the primary benefits of choosing your business.{" "}
+            
+            <p className="text-[18px] font-medium w-[800px] mt-8">
+
+            A terapia individual é um contexto terapêutico singular, proporcionando um espaço dedicado à exploração profunda de pensamentos e sentimentos, focado na abordagem de questões específicas que possam influenciar a vida do indivíduo. Nossos profissionais, embasados nas melhores evidências em psicologia, comprometem-se a estabelecer um ambiente terapêutico seguro e confidencial, promovendo a expressão aberta e a análise cuidadosa de experiências íntimas.
+
+Ao longo desse processo, nosso psicólogo especializado emprega abordagens terapêuticas embasadas em evidências, visando compreender de maneira aprofundada os desafios emocionais e oferecer intervenções práticas. A terapia individual, moldada pelas melhores práticas da psicologia, representa uma jornada adaptativa de autoexploração, apoio emocional e desenvolvimento pessoal. Estamos dedicados a guiar o indivíduo rumo ao seu bem-estar emocional e à consecução de metas, ancorados nas evidências científicas mais robustas.
             </p>
-          </li>
-          <li className="flex flex-col items-center max-w-[200px]">
-            <img
-              src="/sauna.jpeg"
-              className="w-[150px] h-[150px] m-auto rounded-e-btn"
-            />
-            <h1 className="text-[28px] font-medium mt-4 mb-1">Infrared Sauna</h1>
-            <p>
-              Use this section to talk a little bit about your services and go
-              into one of the primary benefits of choosing your business.{" "}
-            </p>
-          </li>
-          <li className="flex flex-col items-center max-w-[200px]">
-            <img
-              src="/facial.jpg"
-              className="w-[150px] h-[150px] m-auto rounded-e-btn"
-            />
-            <h1 className="text-[28px] font-medium mt-4 mb-1">Energy Work</h1>
-            <p>
-              Use this section to talk a little bit about your services and go
-              into one of the primary benefits of choosing your business.{" "}
-            </p>
-          </li>
-        </ul>
-        <button className="italic px-[24px] py-[6px] rounded-btn mt-8 border-[1px] border-greenSecondary font-semibold hover:bg-greenSecondary transition-all delay-[.3] hover:text-about">
-          Explore Services
+          </div>
+        
+        <button className="italic px-[36px] py-[6px] text-[20px] rounded-btn mt-8 border-[1px] border-greenSecondary font-semibold hover:bg-greenSecondary transition-all delay-[.3] hover:text-about">
+          Explorar serviços
         </button>
         </div>
       </section>
