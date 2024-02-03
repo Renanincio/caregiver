@@ -1,66 +1,33 @@
 export const Footer = () => {
-  const images = [
-    {
-      id: 1,
-      url: "./facial.jpg",
-    },
-    {
-      id: 2,
-      url: "./blog2.jpg",
-    },
-    {
-      id: 3,
-      url: "./massage.jpg",
-    },
-    {
-      id: 4,
-      url: "./sauna.jpeg",
-    },
-    {
-      id: 5,
-      url: "./blog1.jpg",
-    },
-  ];
   return (
     <>
       <section className="min-h-[100vh] bg-header flex flex-col justify-between">
         <div>
           <div className=" max-w-[1280px] m-auto p-8">
-            <ul className="flex justify-center items-center gap-4">
-              {images.map((image) => (
-                <li key={image.id}>
-                  <img
-                    src={image.url}
-                    alt={image.url}
-                    className="h-[125px] w-[125px] rounded-btn mt-[-80px]"
-                  />
-                </li>
-              ))}
-            </ul>
-
-            <div className="flex text-center justify-center mt-[200px] gap-16">
-              <p>
-                Phone:
+            <div className="flex text-center w-full justify-center mt-[200px]">
+              <p className="w-[300px]">
+                Contato:
                 <br />
-                123-456-7890
+                +55 21 97029-6191
+                <br />
+                +55 21 97190-7289
               </p>
-              <h2 className="text-[42px] uppercase font-medium leading-10">
-                The
-                <br /> caregiver
+              <h2 className="text-[48px] w-[300px] uppercase font-medium leading-10 italic">
+                Insight
               </h2>
-              <p>
-                555 Hope Street,
+              <p className="w-[300px]">
+                Estrada do Galeão, 2655 - <br />
+                Jardim Guanabara,
                 <br />
-                Newport, RI
+                Rio de Janeiro - RJ, 21931-385
               </p>
             </div>
             <div className="h-[1px] w-[800px] bg-greenPrimary mb-8 mt-[70px] mx-auto " />
             <ul className="uppercase flex m-auto justify-center items-center gap-6">
-              <li>abou</li>
-              <li>services</li>
-              <li>blog</li>
-              <li>contact</li>
-              <li>careers</li>
+              <li>Início</li>
+              <li>Quem somos</li>
+              <li>Serviços</li>
+              <li>Contato</li>
             </ul>
           </div>
         </div>

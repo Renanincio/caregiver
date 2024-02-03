@@ -66,7 +66,7 @@ export const Services = () => {
           Entre em contato
         </button>
       </div>
-      <div className="w-full h-[400px] bg-[url('/services.jpg')]" />
+      
     </section>
   );
 };

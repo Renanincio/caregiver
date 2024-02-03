@@ -12,6 +12,12 @@ export const About = () => {
             necessidades individuais de nossos pacientes. Conheça quem somos e
             descubra como podemos auxiliar no seu bem-estar emocional.
           </p>
+          <p className="mb-12 w-[600px] font-medium text-[18px] leading-relaxed">
+          Utilizamos como linha de atendimento a Psicologia Baseada em
+          Evidências para pacientes com transtornos mentais e àqueles que buscam
+          melhor qualidade de vida e performance através de uma boa saúde
+          mental.
+          </p>
         </div>
       </section>
     </>
