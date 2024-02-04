@@ -45,7 +45,7 @@ export const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
-              src="./Filipe2.jpg"
+              src="./filipe2.jpg"
               alt="foto de um psicólogo"
               className="w-[475px] h-full rounded-btn"
             />
