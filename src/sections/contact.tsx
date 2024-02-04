@@ -12,26 +12,28 @@ export const Contact = () => {
             Pegue um café e entre em contato conosco!
           </p>
           <form className="flex flex-col gap-4 text-start">
+          <input
+                type="text"
+                placeholder="Nome"
+                className="p-2 capitalize border-solid border-b-[1px] border-greenPrimary bg-transparent placeholder:text-greenSecondary"
+              />
+              <input
+                type="email"
+                placeholder="email"
+                className="p-2 capitalize border-solid border-b-[1px] border-greenPrimary bg-transparent placeholder:text-greenSecondary"
+              />
+              <textarea
+                className="p-2 capitalize border-solid border-b-[1px] border-greenPrimary bg-transparent placeholder:text-greenSecondary"
+                name="Mensagem"
+                rows={1}
+                placeholder="Como podemos ajudar?"
+              />
             <RadioGroup.Root
               className="RadioGroupRoot flex flex-col gap-4 text-start"
               defaultValue="default"
               aria-label="View density"
             >
-              <input
-                type="text"
-                placeholder="Nome"
-                className="p-2 capitalize border-solid border-[1px] border-black"
-              />
-              <input
-                type="email"
-                placeholder="email"
-                className="p-2 capitalize border-solid border-[1px] border-black"
-              />
-              <textarea
-                className="p-2 capitalize border-solid border-[1px] border-black"
-                name="Mensagem"
-                placeholder="Como podemos ajudar?"
-              />
+              
               <legend>Tipo de atendimento:</legend>
               <div className="flex items-center gap-2">
                 <RadioGroup.Item
