@@ -5,6 +5,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
+import { motion } from "framer-motion";
 
 export const Services = () => {
   return (
@@ -35,15 +36,23 @@ export const Services = () => {
           >
             <SwiperSlide>
               <li className="flex flex-col justify-center text-center items-center">
-                <h2 className="text-[42px] uppercase font-medium mb-8 mt-16">
+                <motion.h2
+                  whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 0.5 }}
+                  className="text-[42px] uppercase font-medium mb-8 mt-16"
+                >
                   Terapia Individual
-                </h2>
+                </motion.h2>
                 <img
                   src="/terapiaindi.jpeg"
                   className="w-[475px] h-[325px] m-auto rounded-e-btn"
                 />
 
-                <p className="text-[16px] font-normal w-[550px] mt-8">
+                <motion.p
+                  whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 0.5 }}
+                  className="text-[16px] font-normal w-[550px] mt-8"
+                >
                   A terapia individual é um contexto terapêutico singular,
                   proporcionando um espaço dedicado à exploração profunda de
                   pensamentos e sentimentos, focado na abordagem de questões
@@ -61,21 +70,29 @@ export const Services = () => {
                   desenvolvimento pessoal. Estamos dedicados a guiar o indivíduo
                   rumo ao seu bem-estar emocional e à consecução de metas,
                   ancorados nas evidências científicas mais robustas.
-                </p>
+                </motion.p>
               </li>
             </SwiperSlide>
 
-            <SwiperSlide >
+            <SwiperSlide>
               <li className="flex flex-col justify-center text-center items-center">
-                <h2 className="text-[42px] uppercase font-medium mb-8 mt-16">
+                <motion.h2
+                  whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 0.5 }}
+                  className="text-[42px] uppercase font-medium mb-8 mt-16"
+                >
                   Diagnóstico
-                </h2>
+                </motion.h2>
                 <img
                   src="/diagnóstico.jpeg"
                   className="w-[475px] h-[325px] m-auto rounded-e-btn"
                 />
 
-                <p className="text-[16px] font-normal w-[550px] mt-8">
+                <motion.p
+                  whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 0.5 }}
+                  className="text-[16px] font-normal w-[550px] mt-8"
+                >
                   Em nossa abordagem no Insight, oferecemos testes diagnósticos
                   realizados por profissionais especializados em psicologia.
                   Estes testes são aplicados para detectar e avaliar possíveis
@@ -86,7 +103,7 @@ export const Services = () => {
                   você está dando o primeiro passo em direção a uma jornada de
                   autoconhecimento e bem-estar emocional. Estamos aqui para
                   oferecer suporte e orientação personalizada.
-                </p>
+                </motion.p>
               </li>
             </SwiperSlide>
           </Swiper>

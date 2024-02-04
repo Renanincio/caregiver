@@ -4,20 +4,29 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { motion } from "framer-motion";
 
 export const Home = () => {
   return (
     <section id="home" className="bg-services min-h-screen flex">
       <div className="max-w-[1280px] mx-auto flex h-screen justify-evenly items-center">
         <div className="flex flex-col w-[700px]">
-          <h1 className="font-semibold capitalize text-[48px] leading-10 mb-8 mt-16">
+          <motion.h1
+            whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="font-semibold capitalize text-[48px] leading-10 mb-8 mt-16"
+          >
             Filipe Alexandre
             <br /> psicólogo formado pela Unisuam
-          </h1>
-          <p className="w-[400px] italic capitalize leading-relaxed">
+          </motion.h1>
+          <motion.p
+            whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="w-[400px] italic capitalize leading-relaxed"
+          >
             fundador da página no Instagram papo_psi1. Aonde é divulgados um
             pouco da psicologia de maneira mais fácil.
-          </p>
+          </motion.p>
           <button className=" py-[10px] w-[230px] mt-16 font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn">
             Saiba mais
           </button>
