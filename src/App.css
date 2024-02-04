@@ -6,3 +6,16 @@
     font-family: 'Cormorant Garamond', serif;
     color: #2F3D44;
 }
+
+*::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #687F80;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #2F3D44;
+    border-radius: 30px;
+  }
