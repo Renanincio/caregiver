@@ -4,14 +4,14 @@ export const Contact = () => {
   return (
     <>
       <section id="contact" className="min-h-screen bg-contact flex items-center">
-        <div className=" max-w-[1280px] text-center flex flex-col m-auto">
+        <div className=" max-w-[1280px] text-center flex flex-col m-auto max-[900px]:px-6">
           <h2 className="text-white text-[54px] leading-10 font-medium">
             Ficou com dúvidas?
           </h2>
           <p className="text-white text-[18px] my-8">
             Pegue um café e entre em contato conosco!
           </p>
-          <form className="flex flex-col gap-4 text-start max-[900px]:px-4">
+          <form className="flex flex-col gap-4 text-start max-[900px]:px-8">
             <input
               type="text"
               placeholder="Nome"
