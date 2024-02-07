@@ -24,7 +24,7 @@ export const Home = () => {
             transition={{ duration: 0.5 }}
             className="w-[400px] italic capitalize leading-relaxed"
           >
-            fundador da página no Instagram papo_psi1. Aonde é divulgados um
+            fundador da página no Instagram <a href="https://www.instagram.com/papo_psi1/" target="__blank" className="text-greenSecondary">papo_psi1.</a> Aonde é divulgados um
             pouco da psicologia de maneira mais fácil.
           </motion.p>
           <button className=" py-[10px] w-[230px] mt-16 font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn">

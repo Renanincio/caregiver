@@ -3,7 +3,7 @@ import * as RadioGroup from "@radix-ui/react-radio-group";
 export const Contact = () => {
   return (
     <>
-      <section className="min-h-screen bg-contact flex items-center">
+      <section id="contact" className="min-h-screen bg-contact flex items-center">
         <div className=" max-w-[1280px] text-center flex flex-col m-auto">
           <h2 className="text-white text-[54px] leading-10 font-medium">
             Ficou com dúvidas?
