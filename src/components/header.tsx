@@ -10,7 +10,7 @@ export const Header = () => {
         className={
           menu
             ? "w-300px p-8 h-screen m-auto flex fixed top-0 left-0 bg-header transition-all duration-[.8s] z-10"
-            : "w-300px p-8 h-screen m-auto hidden max-[900px]:flex fixed top-0 left-[-100%] bg-header transition-all duration-[.8s]"
+            : "w-300px p-8 h-screen m-auto hidden max-[900px]:flex fixed top-0 left-[-100%] bg-header transition-all duration-[.8s] z-10"
         }
       >
         <ul className="flex flex-col items-center italic gap-12 font-extrabold  transition-all delay-[.7] ease">

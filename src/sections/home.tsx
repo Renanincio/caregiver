@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export const Home = () => {
   return (
     <section id="home" className="bg-services min-h-screen flex">
-      <div className="max-w-[1280px] mx-auto flex h-full min-h-screen justify-evenly items-center w-full max-[900px]:flex-wrap max-[900px]:pb-4">
+      <div className="max-w-[1280px] mx-auto flex min-h-screen h-full justify-evenly items-center w-full max-[900px]:flex-wrap max-[900px]:pb-4">
         <div className="flex flex-col max-w-[700px] pl-4 ">
           <motion.h1
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -58,28 +58,28 @@ export const Home = () => {
             <img
               src="./Filipe1.jpg"
               alt="foto de um psicólogo"
-              className="w-[475px] h-full rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto"
+              className="w-[475px] h-screen rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto max-[550px]:max-w-[550px] max-[550px]:w-full max-[550px]:px-2"
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
               src="./filipe2.jpg"
               alt="foto de um psicólogo"
-              className="w-[475px] h-full rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto"
+              className="w-[475px] h-screen rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto max-[550px]:max-w-[550px] max-[550px]:w-full max-[550px]:px-2"
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
               src="./Filipe3.jpg"
               alt="foto de um psicólogo"
-              className="w-[475px] h-full rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto"
+              className="w-[475px] h-screen rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto max-[550px]:max-w-[550px] max-[550px]:w-full max-[550px]:px-2"
             />
           </SwiperSlide>
           <SwiperSlide className="h-full">
             <img
               src="./Filipe4.jpg"
               alt="foto de um psicólogo"
-              className="w-[550px] h-full rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto"
+              className="w-[550px] h-screen rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto max-[550px]:max-w-[550px] max-[550px]:w-full max-[550px]:px-2"
             /> 
           </SwiperSlide>
         </Swiper>

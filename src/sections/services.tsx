@@ -51,7 +51,7 @@ export const Services = () => {
                 <motion.p
                   whileInView={{ x: [-100, 0], opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
-                  className="text-[16px] font-normal w-[550px] mt-8"
+                  className="text-[16px] font-normal max-w-[550px] w-full max-[900px]:px-2 mt-8"
                 >
                   A terapia individual é um contexto terapêutico singular,
                   proporcionando um espaço dedicado à exploração profunda de
@@ -91,7 +91,7 @@ export const Services = () => {
                 <motion.p
                   whileInView={{ x: [-100, 0], opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
-                  className="text-[16px] font-normal w-[550px] mt-8"
+                  className="text-[16px] font-normal max-w-[550px] w-full max-[900px]:px-2 mt-8"
                 >
                   Em nossa abordagem no Insight, oferecemos testes diagnósticos
                   realizados por profissionais especializados em psicologia.

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const About = () => {
   return (
     <>
-      <section id="about" className="min-h-screen  bg-about ">
+      <section id="about" className="min-h-screen  bg-about max-[900px]:pt-8">
         <div className="max-w-[1280px] m-auto h-screen p-8 flex justify-center items-center flex-col text-center">
           <motion.h2
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -15,7 +15,7 @@ export const About = () => {
           <motion.p
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
-            className="mb-12 w-[600px] font-medium text-[18px] leading-relaxed"
+            className="mb-12 max-w-[600px] w-full p-4 font-medium text-[18px] leading-relaxed"
           >
             Na Clínica Insight, dedicamo-nos a fornecer um ambiente terapêutico
             em total conformidade com o código de ética da psicologia. Nossa
@@ -27,7 +27,7 @@ export const About = () => {
           <motion.p
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
-            className="mb-12 w-[600px] font-medium text-[18px] leading-relaxed"
+            className="mb-12  max-w-[600px] w-full p-4 font-medium text-[18px] leading-relaxed"
           >
             Utilizamos como linha de atendimento a Psicologia Baseada em
             Evidências para pacientes com transtornos mentais e àqueles que

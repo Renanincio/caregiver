@@ -11,7 +11,7 @@ export const Contact = () => {
           <p className="text-white text-[18px] my-8">
             Pegue um café e entre em contato conosco!
           </p>
-          <form className="flex flex-col gap-4 text-start">
+          <form className="flex flex-col gap-4 text-start max-[900px]:px-4">
             <input
               type="text"
               placeholder="Nome"
