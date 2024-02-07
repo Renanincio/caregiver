@@ -22,7 +22,7 @@ export const Footer = () => {
                 Rio de Janeiro - RJ, 21931-385
               </p>
             </div>
-            <div className="h-[1px] w-[800px] bg-greenPrimary mb-8 mt-[70px] mx-auto " />
+            <div className="h-[1px] max-w-[800px] w-full bg-greenPrimary mb-8 mt-[70px] mx-auto " />
             <ul className="uppercase flex m-auto justify-center items-center gap-6">
               <a href="#home">
                 <li className="transition-all delay-[.3] hover:text-greenSecondary">

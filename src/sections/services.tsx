@@ -109,9 +109,11 @@ export const Services = () => {
           </Swiper>
         </ul>
 
-        <button className="italic w-[225px] py-[6px] text-[20px] mx-auto rounded-btn my-14 border-[1px] border-greenSecondary font-semibold hover:bg-greenSecondary transition-all delay-[.3] hover:text-about">
-          Entre em contato
-        </button>
+        <a href="#contact">
+          <button className="italic w-[225px] py-[6px] text-[20px] mx-auto rounded-btn my-14 border-[1px] border-greenSecondary font-semibold hover:bg-greenSecondary transition-all delay-[.3] hover:text-about">
+            Entre em contato
+          </button>
+        </a>
       </div>
     </section>
   );
