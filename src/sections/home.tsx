@@ -14,10 +14,10 @@ export const Home = () => {
           <motion.h1
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
-            className="font-semibold capitalize text-[48px] leading-10 mb-8 mt-16"
+            className="font-semibold capitalize text-[48px] leading-[1] mb-8 mt-16"
           >
             Filipe Alexandre
-            <br /> psicólogo formado pela Unisuam
+            <br />psicólogo pós-graduando em neuropsicologia
           </motion.h1>
           <motion.p
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -74,13 +74,6 @@ export const Home = () => {
               alt="foto de um psicólogo"
               className="w-[475px] h-screen rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto max-[550px]:max-w-[550px] max-[550px]:w-full max-[550px]:px-2"
             />
-          </SwiperSlide>
-          <SwiperSlide className="h-full">
-            <img
-              src="./Filipe4.jpg"
-              alt="foto de um psicólogo"
-              className="w-[550px] h-screen rounded-btn max-[900px]:w-[425px] max-[900px]:h-[550px] max-[900px]:mx-auto max-[550px]:max-w-[550px] max-[550px]:w-full max-[550px]:px-2"
-            /> 
           </SwiperSlide>
         </Swiper>
       </div>

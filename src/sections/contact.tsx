@@ -12,7 +12,7 @@ export const Contact = () => {
           <p className="text-white text-[18px] my-8">
             Pegue um café e entre em contato conosco!
           </p>
-          <form action="https://formsubmit.co/clinicapsicologicainsigth@gmail.com" method="POST" className="flex flex-col gap-4 text-start max-[900px]:px-8">
+          <form action="https://formsubmit.co/filipealexandre@souunisuam.com.br" method="POST" className="flex flex-col gap-4 text-start max-[900px]:px-8">
             <input
               type="text"
               placeholder="Nome"
