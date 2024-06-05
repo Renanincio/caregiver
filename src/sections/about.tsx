@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <>
       <section id="about" className="min-h-screen  bg-about max-[900px]:pt-8">
-        <div className="max-w-[1280px] m-auto h-screen p-8 flex justify-center items-center flex-col text-center">
+        <main className="max-w-[1280px] m-auto h-screen p-8 flex justify-center items-center flex-col text-center">
           <motion.h2
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
@@ -12,7 +12,7 @@ export const About = () => {
           >
             Quem somos?
           </motion.h2>
-          <motion.p
+          <motion.article
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="mb-12 max-w-[600px] w-full p-4 font-medium text-[18px] leading-relaxed"
@@ -23,8 +23,8 @@ export const About = () => {
             psicanálise oferece uma ampla gama de recursos para atender às
             necessidades individuais de nossos pacientes. Conheça quem somos e
             descubra como podemos auxiliar no seu bem-estar emocional.
-          </motion.p>
-          <motion.p
+          </motion.article>
+          <motion.article
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="mb-12  max-w-[600px] w-full p-4 font-medium text-[18px] leading-relaxed"
@@ -33,8 +33,8 @@ export const About = () => {
             Evidências para pacientes com transtornos mentais e àqueles que
             buscam melhor qualidade de vida e performance através de uma boa
             saúde mental.
-          </motion.p>
-        </div>
+          </motion.article>
+        </main>
       </section>
     </>
   );

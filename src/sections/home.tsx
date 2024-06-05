@@ -19,7 +19,7 @@ export const Home = () => {
             Filipe Alexandre
             <br />psicólogo pós-graduando em neuropsicologia
           </motion.h1>
-          <motion.p
+          <motion.article
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="max-w-[400px] italic capitalize leading-relaxed"
@@ -33,7 +33,7 @@ export const Home = () => {
               papo_psi1.
             </a>{" "}
             Aonde é divulgados um pouco da psicologia de maneira mais fácil.
-          </motion.p>
+          </motion.article>
           <a href="#about" className="max-[900px]:mx-auto">
             <button className="py-[10px] w-[230px] mt-16 font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn max-[900px]:mb-4 ">
               Saiba mais

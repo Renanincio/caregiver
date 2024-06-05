@@ -48,7 +48,7 @@ export const Services = () => {
                   className="w-[475px] h-[325px] m-auto rounded-e-btn"
                 />
 
-                <motion.p
+                <motion.article
                   whileInView={{ x: [-100, 0], opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
                   className="text-[16px] font-normal max-w-[550px] w-full max-[900px]:px-2 mt-8"
@@ -70,7 +70,7 @@ export const Services = () => {
                   desenvolvimento pessoal. Estamos dedicados a guiar o indivíduo
                   rumo ao seu bem-estar emocional e à consecução de metas,
                   ancorados nas evidências científicas mais robustas.
-                </motion.p>
+                </motion.article>
               </li>
             </SwiperSlide>
 
@@ -88,7 +88,7 @@ export const Services = () => {
                   className="w-[475px] h-[325px] m-auto rounded-e-btn"
                 />
 
-                <motion.p
+                <motion.article
                   whileInView={{ x: [-100, 0], opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
                   className="text-[16px] font-normal max-w-[550px] w-full max-[900px]:px-2 mt-8"
@@ -103,7 +103,7 @@ export const Services = () => {
                   você está dando o primeiro passo em direção a uma jornada de
                   autoconhecimento e bem-estar emocional. Estamos aqui para
                   oferecer suporte e orientação personalizada.
-                </motion.p>
+                </motion.article>
               </li>
             </SwiperSlide>
           </Swiper>
