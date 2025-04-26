@@ -17,25 +17,34 @@ export const Home = () => {
             className="font-semibold capitalize text-[48px] leading-[1] mb-8 mt-16"
           >
             Filipe Alexandre
-            <br />psicólogo pós-graduando em neuropsicologia
+            <br />
+            psicólogo pós-graduando em neuropsicologia
           </motion.h1>
           <motion.article
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
-            className="max-w-[400px] italic capitalize leading-relaxed"
+            className="max-w-[400px] italic capitalize leading-relaxed mb-8"
           >
-            fundador da página no Instagram{" "}
+            Criador do{" "}
             <a
-              href="https://www.instagram.com/papo_psi1/"
+              href="https://www.tiktok.com/@psicologia_na_praticaa?_t=ZM-8vrLwiAknNn&_r=1"
               target="__blank"
               className="text-greenSecondary"
             >
-              papo_psi1.
+              @psicologia na prática
             </a>{" "}
-            Aonde é divulgados um pouco da psicologia de maneira mais fácil.
+            divulgando psicologia de forma simples e acessível. Perfil
+            profissional no Instagram{" "}
+            <a
+              href="https://www.instagram.com/filipe_alexandree/"
+              target="__blank"
+              className="text-greenSecondary"
+            >
+              @filipe_alexandree.
+            </a>
           </motion.article>
           <a href="#about" className="max-[900px]:mx-auto">
-            <button className="py-[10px] w-[230px] mt-16 font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn max-[900px]:mb-4 ">
+            <button className="py-[10px] w-[230px] font-bold italic capitalize border-[1px] bg-greenSecondary border-greenSecondary hover:bg-transparent transition-all delay-[.3] text-header hover:text-greenPrimary rounded-btn max-[900px]:mb-4 ">
               Saiba mais
             </button>
           </a>

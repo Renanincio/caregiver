@@ -10,29 +10,28 @@ export const About = () => {
             transition={{ duration: 0.5 }}
             className="font-medium text-[48px] my-4"
           >
-            Quem somos?
+            Quem sou eu?
           </motion.h2>
           <motion.article
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="mb-12 max-w-[600px] w-full p-4 font-medium text-[18px] leading-relaxed"
           >
-            Na Clínica Insight, dedicamo-nos a fornecer um ambiente terapêutico
-            em total conformidade com o código de ética da psicologia. Nossa
-            equipe especializada em terapia cognitivo-comportamental e
-            psicanálise oferece uma ampla gama de recursos para atender às
-            necessidades individuais de nossos pacientes. Conheça quem somos e
-            descubra como podemos auxiliar no seu bem-estar emocional.
+            Sou Filipe Alexandre, psicólogo clínico, pós-graduando em
+            Neuropsicologia e em formação pela INPBE. Trabalho com as abordagens
+            da Terapia Cognitivo-Comportamental (TCC), Terapia de Aceitação e
+            Compromisso (ACT) e Terapia Dialética Comportamental (DBT).
           </motion.article>
           <motion.article
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="mb-12  max-w-[600px] w-full p-4 font-medium text-[18px] leading-relaxed"
           >
-            Utilizamos como linha de atendimento a Psicologia Baseada em
-            Evidências para pacientes com transtornos mentais e àqueles que
-            buscam melhor qualidade de vida e performance através de uma boa
-            saúde mental.
+            Mas mais do que títulos, o que me move é algo muito simples e
+            profundo: ajudar você a se relacionar melhor consigo mesmo. Meu
+            objetivo é que, ao longo do processo terapêutico, você desenvolva um
+            repertório interno que permita se tornar protagonista da sua própria
+            história — com mais consciência, autonomia e acolhimento.
           </motion.article>
         </main>
       </section>

@@ -53,23 +53,20 @@ export const Services = () => {
                   transition={{ duration: 0.5 }}
                   className="text-[16px] font-normal max-w-[550px] w-full max-[900px]:px-2 mt-8"
                 >
-                  A terapia individual é um contexto terapêutico singular,
-                  proporcionando um espaço dedicado à exploração profunda de
-                  pensamentos e sentimentos, focado na abordagem de questões
-                  específicas que possam influenciar a vida do indivíduo. Nossos
-                  profissionais, embasados nas melhores evidências em
-                  psicologia, comprometem-se a estabelecer um ambiente
-                  terapêutico seguro e confidencial, promovendo a expressão
-                  aberta e a análise cuidadosa de experiências íntimas. Ao longo
-                  desse processo, nosso psicólogo especializado emprega
-                  abordagens terapêuticas embasadas em evidências, visando
-                  compreender de maneira aprofundada os desafios emocionais e
-                  oferecer intervenções práticas. A terapia individual, moldada
-                  pelas melhores práticas da psicologia, representa uma jornada
-                  adaptativa de autoexploração, apoio emocional e
-                  desenvolvimento pessoal. Estamos dedicados a guiar o indivíduo
-                  rumo ao seu bem-estar emocional e à consecução de metas,
-                  ancorados nas evidências científicas mais robustas.
+                  Como é o meu trabalho na terapia? Atuo com terapia individual,
+                  e meu trabalho vai além da escuta ativa. A escuta é
+                  importante, claro — mas comigo, você encontrará um espaço onde
+                  suas questões são acolhidas e trabalhadas com seriedade,
+                  sensibilidade e base científica. Cada intervenção, cada
+                  reflexão, é construída considerando dois pilares: o que a
+                  ciência nos mostra como eficaz e o que faz sentido dentro da
+                  sua história, da sua realidade e dos seus valores. A terapia
+                  não é sobre dizer o que fazer, mas sobre caminhar ao seu lado,
+                  te ajudando a enxergar possibilidades e escolhas mais
+                  conscientes. Meu papel é guiar você nesse processo. Te ajudar
+                  a acessar recursos internos, compreender padrões, fortalecer
+                  sua autonomia e, principalmente, te apoiar para que você se
+                  torne protagonista da sua própria história.
                 </motion.article>
               </li>
             </SwiperSlide>
@@ -93,16 +90,21 @@ export const Services = () => {
                   transition={{ duration: 0.5 }}
                   className="text-[16px] font-normal max-w-[550px] w-full max-[900px]:px-2 mt-8"
                 >
-                  Em nossa abordagem no Insight, oferecemos testes diagnósticos
-                  realizados por profissionais especializados em psicologia.
-                  Estes testes são aplicados para detectar e avaliar possíveis
-                  transtornos mentais, proporcionando uma compreensão mais
-                  profunda de suas emoções e desafios pessoais, como ansiedade,
-                  depressão, autismo, transtornos de personalidade, entre
-                  outros. Ao escolher nossos serviços de testes diagnósticos,
-                  você está dando o primeiro passo em direção a uma jornada de
-                  autoconhecimento e bem-estar emocional. Estamos aqui para
-                  oferecer suporte e orientação personalizada.
+                  Como é o meu trabalho na avaliação neuropsicológica? Muitas
+                  pessoas procuram uma avaliação em busca de respostas. Querem
+                  entender melhor por que certas dificuldades acontecem, como
+                  funcionam seus pensamentos, sua memória, sua atenção — e,
+                  principalmente, o que podem fazer a partir disso. Meu objetivo
+                  com a avaliação neuropsicológica é justamente esse: ajudar
+                  você a se enxergar com mais clareza e profundidade. Trabalho
+                  com os testes mais atualizados e cientificamente validados,
+                  escolhidos conforme as necessidades de cada caso, sempre com
+                  um olhar individualizado e humano. Mais do que entregar um
+                  laudo, meu foco é proporcionar um processo de descoberta.
+                  Compreender como sua mente funciona é o ponto de partida para
+                  escolhas mais conscientes, maior clareza sobre seus desafios e
+                  a construção de caminhos que realmente estejam alinhados com
+                  quem você é.
                 </motion.article>
               </li>
             </SwiperSlide>
